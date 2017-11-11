@@ -1,0 +1,54 @@
+body{
+    background-image: url("roman-kraft-279919.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    text-align: center;
+}
+
+h3{
+    color: sienna;
+    font-family: 'Pavanam', sans-serif;
+}
+
+.btn{
+    border-radius: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+#submit{
+    margin-bottom: 30px;
+}
+
+.contents{
+    color: sienna;
+}
+
+.questions{
+    font-size: 15px;
+}
+
+.basicInfo{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.basicInfo h1{
+    margin-bottom: 8px;
+}
+
+hr{
+    width: 80%;
+}
+
+#footer{
+    text-align: left;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+#footer a{
+    color: #b9b700;
+    margin-left: 10px;
+}

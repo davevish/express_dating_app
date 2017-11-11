@@ -1,0 +1,39 @@
+body{
+    background-image: url("luke-ellis-craven-222982.jpg");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+
+.headings{
+    height: 300px;
+    text-align: center;
+    margin-top: 8vw;
+}
+
+h1{
+    font-family: 'Caveat', cursive !important;
+    font-size: 75px;
+}
+
+h4{
+    font-family: 'Caveat', cursive !important;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.headings button{
+    font-family: 'Caveat', cursive !important;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+#footer{
+    text-align: left;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+#footer a{
+    color: #b9b700;
+    margin-left: 10px;
+}
