@@ -1,6 +1,6 @@
 document.ready(function () {
 
-var = name, picture, q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, newfriend;
+// var newFriend= name, picture, q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, newfriend;
 
 $("#submit").on("click", function(event) {
 	event.preventDefault();
@@ -21,8 +21,7 @@ $("#submit").on("click", function(event) {
 	newfriend = {
 		name: name,
 		picture: picture,
-		responses: [q1, q2, q3, q4, q5, q6, q7, q8, q9, q10],
-		total: q1 + q2 + q3 + q4 + q5 + q6 + q7 + q8 + q9 + q10
+		scores: [q1, q2, q3, q4, q5, q6, q7, q8, q9, q10]
 	};
 
 	// declare and set local variables
