@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c1a5080-c995-4b5e-91c0-8c896e5b3292" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/javascript/app.js" afterPath="$PROJECT_DIR$/app/public/javascript/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/survey.html" afterPath="$PROJECT_DIR$/app/public/survey.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,8 +49,8 @@
       <file leaf-file-name="survey.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/public/survey.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="200">
+              <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
               <folding>
                 <element signature="e#13545#13552#1" expanded="true" />
               </folding>
@@ -86,8 +86,8 @@
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/app/data/friends.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/app/public/survey.html" />
         <option value="$PROJECT_DIR$/app/public/javascript/app.js" />
+        <option value="$PROJECT_DIR$/app/public/survey.html" />
       </list>
     </option>
   </component>
@@ -211,12 +211,12 @@
       <workItem from="1510349201577" duration="24447000" />
       <workItem from="1510410129057" duration="847000" />
       <workItem from="1510894948235" duration="5264000" />
-      <workItem from="1510955472654" duration="1949000" />
+      <workItem from="1510955472654" duration="2329000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32507000" />
+    <option name="totallyTimeSpent" value="32887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3872" height="2092" extended-state="6" />
@@ -462,8 +462,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/public/survey.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="200">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
           <folding>
             <element signature="e#13545#13552#1" expanded="true" />
           </folding>
