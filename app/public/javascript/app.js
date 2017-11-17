@@ -1,26 +1,27 @@
 $(document).ready(function () {
-
-// var newFriend= name, picture, q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, newfriend;
+    var minName;
+    var minImage;
+    var difference = 40;
 
 $("#submit").on("click", function(event) {
 	event.preventDefault();
 	// set global variable values for multiple uses in this and other functions
-	name = $("#name").val();
-	picture = $("#picture").val();
-	q1 = parseInt($("#q1").val());
-	q2 = parseInt($("#q2").val());
-	q3 = parseInt($("#q3").val());
-	q4 = parseInt($("#q4").val());
-	q5 = parseInt($("#q5").val());
-	q6 = parseInt($("#q6").val());
-	q7 = parseInt($("#q7").val());
-	q8 = parseInt($("#q8").val());
-	q9 = parseInt($("#q9").val());
-	q10 = parseInt($("#q10").val());
+	var name = $("#name").val();
+	var photo = $("#photo").val();
+	var q1 = parseInt($("#q1").val());
+    var q2 = parseInt($("#q2").val());
+    var q3 = parseInt($("#q3").val());
+    var q4 = parseInt($("#q4").val());
+    var q5 = parseInt($("#q5").val());
+    var q6 = parseInt($("#q6").val());
+    var q7 = parseInt($("#q7").val());
+    var q8 = parseInt($("#q8").val());
+    var q9 = parseInt($("#q9").val());
+    var q10 = parseInt($("#q10").val());
 
-	newfriend = {
+    var newfriend = {
 		name: name,
-		picture: picture,
+		photo: photo,
 		scores: [q1, q2, q3, q4, q5, q6, q7, q8, q9, q10]
 	};
 
@@ -53,18 +54,15 @@ $("#submit").on("click", function(event) {
 });
 
 function formIsValid() {
-	return (nameVal !== '' && imageVal !== '' && !isNaN(q1Val) && !isNaN(q2Val) && !isNaN(q3Val) && !isNaN(q4Val) && !isNaN(q5Val) && !isNaN(q6Val) && !isNaN(q7Val) && !isNaN(q8Val) && !isNaN(q9Val) && !isNaN(q10Val));
+	return (name !== '' && photo !== '' && !isNaN(q1) && !isNaN(q2) && !isNaN(q3) && !isNaN(q4) && !isNaN(q5) && !isNaN(q6) && !isNaN(q7) && !isNaN(q8) && !isNaN(q9) && !isNaN(q10));
 }
 function makeMatch(data) {
-	var difference = 50;
-	var minName;
-	var minImage;
 	data.forEach(function(person) {
 		var localDiff = Math.abs(newPerson.total - person.total);
 		if (localDiff < difference) {
 			difference = localDiff;
 			minName = person.name;
-			minImage = person.image;
+			minImage = person.photo;
 		}
 	});
 	return {
