@@ -1,3 +1,6 @@
+document.ready(function () {
+
+
 var = name, picture, q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, newfriend;
 
 $("#submit").on("click", function(event) {
@@ -71,6 +74,7 @@ function makeMatch(data) {
 		image: minImage
 	};
 }
+});
 
 // $(document).ready(function() {
 //
